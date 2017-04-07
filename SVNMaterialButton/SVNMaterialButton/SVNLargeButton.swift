@@ -14,7 +14,6 @@ public class SVNLargeButton: UIButton {
         super.init(frame: frame)
         self.backgroundColor = color
         self.layer.masksToBounds = false
-        self.layer.borderWidth = 1.0
         self.layer.shadowColor = UIColor.black.cgColor
         self.layer.shadowOpacity = 0.8
         self.layer.shadowRadius = 8
