@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import SVNTheme
 
 public class SVNLargeButton: UIButton {
     
