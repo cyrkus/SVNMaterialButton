@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		A1B104F31E984EFC000C923A /* SVNMaterialButton.h in Headers */ = {isa = PBXBuildFile; fileRef = A1B104F11E984EFC000C923A /* SVNMaterialButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1B104FA1E984F29000C923A /* SVNLargeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B104F91E984F29000C923A /* SVNLargeButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A1B104EE1E984EFC000C923A /* SVNMaterialButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SVNMaterialButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1B104F11E984EFC000C923A /* SVNMaterialButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SVNMaterialButton.h; sourceTree = "<group>"; };
 		A1B104F21E984EFC000C923A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1B104F91E984F29000C923A /* SVNLargeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SVNLargeButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +48,7 @@
 		A1B104F01E984EFC000C923A /* SVNMaterialButton */ = {
 			isa = PBXGroup;
 			children = (
+				A1B104F91E984F29000C923A /* SVNLargeButton.swift */,
 				A1B104F11E984EFC000C923A /* SVNMaterialButton.h */,
 				A1B104F21E984EFC000C923A /* Info.plist */,
 			);
@@ -96,6 +99,7 @@
 					A1B104ED1E984EFC000C923A = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = BEPPW5449K;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -132,6 +136,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1B104FA1E984F29000C923A /* SVNLargeButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +247,7 @@
 		A1B104F71E984EFC000C923A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = BEPPW5449K;
@@ -255,6 +261,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.7apps.SVNMaterialButton;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -262,6 +269,7 @@
 		A1B104F81E984EFC000C923A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = BEPPW5449K;
