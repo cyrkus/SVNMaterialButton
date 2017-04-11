@@ -20,6 +20,16 @@ public class SVNLargeButton: UIButton {
         self.layer.shadowOffset = CGSize(width: 8.0, height: 8.0)
     }
     
+    public init(layoutInBottomOfContainer container: CGRect, color: UIColor){
+        super.init(frame: CGRect(x: 45, y: container.size.height - (35 + 65), width: container.size.width - 45 * 2, height: 65))
+        self.backgroundColor = color
+        self.layer.masksToBounds = false
+        self.layer.shadowColor = UIColor.black.cgColor
+        self.layer.shadowOpacity = 0.8
+        self.layer.shadowRadius = 8
+        self.layer.shadowOffset = CGSize(width: 8.0, height: 8.0)
+    }
+    
     required public init?(coder aDecoder: NSCoder) {
         fatalError("This class is not set up to be instaciated with coder use init(frame) instead")
     }
