@@ -1,5 +1,5 @@
 //
-//  SVNLargeButton.swift
+//  SVNMaterialButton.swift
 //  SVNLargeButton
 //
 //  Created by Aaron Dean Bikis on 4/7/17.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-public class SVNLargeButton: UIButton {
+public class SVNMaterialButton: UIButton {
     
     public init(frame: CGRect, color: UIColor) {
         super.init(frame: frame)
