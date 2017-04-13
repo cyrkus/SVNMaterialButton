@@ -40,13 +40,13 @@ public class SVNMaterialButton: UIButton {
     }
     
     public override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        self.animate(to: 0.5, and: CGSize(width: 5.0, height: 5.0), with: 0.5)
         super.touchesBegan(touches, with: event)
+        self.animate(to: 0.5, and: CGSize(width: 5.0, height: 5.0), with: 0.5)
     }
     
     public override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
-        self.animate(to: 0.8, and: CGSize(width: 8.0, height: 8.0), with: 0.5)
         super.touchesBegan(touches, with: event)
+        self.animate(to: 0.8, and: CGSize(width: 8.0, height: 8.0), with: 0.5)
     }
     
     private func animate(to opacity: Double, and offset: CGSize, with duration: Double){
