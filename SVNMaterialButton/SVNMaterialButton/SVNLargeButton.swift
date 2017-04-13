@@ -46,6 +46,7 @@ public class SVNMaterialButton: UIButton {
     
     public override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
         super.touchesBegan(touches, with: event)
+        self.sendActions(for: .touchUpInside)
         self.animate(to: 0.8, and: CGSize(width: 8.0, height: 8.0), with: 0.5)
     }
     
