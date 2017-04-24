@@ -7,11 +7,22 @@
 //
 
 import UIKit
+import SVNTheme
 
 public class SVNMaterialButton: UIButton {
     
     public init(){
         super.init(frame: CGRect.zero)
+        let theme = SVNTheme_DefaultDark()
+        self.backgroundColor = theme.primaryDialogColor
+        self.titleLabel?.font = theme.mediumHeading
+        self.setMaterialUI()
+    }
+    
+    public init(frame: CGRect, theme:SVNTheme) {
+        super.init(frame: frame)
+        self.backgroundColor = theme.primaryDialogColor
+        self.titleLabel?.font = theme.mediumHeading
         self.setMaterialUI()
     }
     
