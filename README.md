@@ -1,5 +1,8 @@
 # SVNMaterialButton
 A Material Design Button with drop shadow animations on tap
+<p align="center">
+  <img src="/images/button.png" alt="SVNMaterialButton"/>
+</p>
 
 # To install this framework
 
