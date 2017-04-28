@@ -6,6 +6,9 @@ A Material Design Button with drop shadow animations on tap
   <img src="/images/button.png" alt="SVNMaterialButton"/>
 </p>
 
+Submodules include:
+[SVNTheme](https://github.com/sevenapps/SVNTheme)
+
 # To install this framework
 
 ## To install this framework
