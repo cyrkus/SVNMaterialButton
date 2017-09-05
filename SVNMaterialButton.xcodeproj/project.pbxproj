@@ -12,7 +12,7 @@
 		A17AA6CF1F5F25E400045C10 /* SVNBootstraper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A17AA6CD1F5F25E400045C10 /* SVNBootstraper.framework */; };
 		A17AA6D01F5F25E400045C10 /* SwiftEssentials.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A17AA6CE1F5F25E400045C10 /* SwiftEssentials.framework */; };
 		A1B104F31E984EFC000C923A /* SVNMaterialButton.h in Headers */ = {isa = PBXBuildFile; fileRef = A1B104F11E984EFC000C923A /* SVNMaterialButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A1B104FA1E984F29000C923A /* SVNLargeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B104F91E984F29000C923A /* SVNLargeButton.swift */; };
+		A1B104FA1E984F29000C923A /* SVNMaterialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B104F91E984F29000C923A /* SVNMaterialButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +23,7 @@
 		A1B104EE1E984EFC000C923A /* SVNMaterialButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SVNMaterialButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1B104F11E984EFC000C923A /* SVNMaterialButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SVNMaterialButton.h; sourceTree = "<group>"; };
 		A1B104F21E984EFC000C923A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A1B104F91E984F29000C923A /* SVNLargeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SVNLargeButton.swift; sourceTree = "<group>"; };
+		A1B104F91E984F29000C923A /* SVNMaterialButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SVNMaterialButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +70,7 @@
 		A1B104F01E984EFC000C923A /* SVNMaterialButton */ = {
 			isa = PBXGroup;
 			children = (
-				A1B104F91E984F29000C923A /* SVNLargeButton.swift */,
+				A1B104F91E984F29000C923A /* SVNMaterialButton.swift */,
 				A17AA6CB1F5F1B5F00045C10 /* SVNMaterialButtonViewModel.swift */,
 				A1B104F11E984EFC000C923A /* SVNMaterialButton.h */,
 				A1B104F21E984EFC000C923A /* Info.plist */,
@@ -159,7 +159,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1B104FA1E984F29000C923A /* SVNLargeButton.swift in Sources */,
+				A1B104FA1E984F29000C923A /* SVNMaterialButton.swift in Sources */,
 				A17AA6CC1F5F1B5F00045C10 /* SVNMaterialButtonViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

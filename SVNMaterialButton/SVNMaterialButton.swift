@@ -12,7 +12,7 @@ import SVNBootstraper
 
 open class SVNMaterialButton: UIButton {
   
-  class var standardHeight: CGFloat! {
+  open class var standardHeight: CGFloat! {
     get {
       guard let device = UIDevice.whichDevice() else { return 65.0 }
       switch device {
@@ -26,13 +26,13 @@ open class SVNMaterialButton: UIButton {
     }
   }
   
-  class var standardPadding: CGFloat! {
+  open class var standardPadding: CGFloat! {
     get {
       return 15.0
     }
   }
   
-  class var bottomPadding: CGFloat {
+  open class var bottomPadding: CGFloat {
     get {
       guard let device = UIDevice.whichDevice() else { return 35.0 }
       switch device {
