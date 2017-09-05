@@ -68,12 +68,6 @@ open class SVNMaterialButton: UIButton {
   }
   
   
-  public init(layoutInBottomOfContainer container: CGRect, viewModel: SVNMaterialButtonViewModel){
-    self.viewModel = viewModel
-    super.init(frame: CGRect(x: 45, y: container.size.height - (35 + 65), width: container.size.width - 45 * 2, height: 65))
-  }
-  
-  
   private func setMaterialUI(){
     self.layer.masksToBounds = false
     self.layer.shadowColor = UIColor.black.cgColor
