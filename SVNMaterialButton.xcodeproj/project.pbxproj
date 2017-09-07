@@ -10,7 +10,6 @@
 		A11836081EAEB8E500862332 /* SVNTheme.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A11836071EAEB8E500862332 /* SVNTheme.framework */; };
 		A17AA6CC1F5F1B5F00045C10 /* SVNMaterialButtonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17AA6CB1F5F1B5F00045C10 /* SVNMaterialButtonViewModel.swift */; };
 		A17AA6CF1F5F25E400045C10 /* SVNBootstraper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A17AA6CD1F5F25E400045C10 /* SVNBootstraper.framework */; };
-		A17AA6D01F5F25E400045C10 /* SwiftEssentials.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A17AA6CE1F5F25E400045C10 /* SwiftEssentials.framework */; };
 		A1B104F31E984EFC000C923A /* SVNMaterialButton.h in Headers */ = {isa = PBXBuildFile; fileRef = A1B104F11E984EFC000C923A /* SVNMaterialButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A1B104FA1E984F29000C923A /* SVNMaterialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B104F91E984F29000C923A /* SVNMaterialButton.swift */; };
 /* End PBXBuildFile section */
@@ -19,7 +18,6 @@
 		A11836071EAEB8E500862332 /* SVNTheme.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SVNTheme.framework; path = Carthage/Build/iOS/SVNTheme.framework; sourceTree = "<group>"; };
 		A17AA6CB1F5F1B5F00045C10 /* SVNMaterialButtonViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SVNMaterialButtonViewModel.swift; sourceTree = "<group>"; };
 		A17AA6CD1F5F25E400045C10 /* SVNBootstraper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SVNBootstraper.framework; path = Carthage/Build/iOS/SVNBootstraper.framework; sourceTree = "<group>"; };
-		A17AA6CE1F5F25E400045C10 /* SwiftEssentials.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftEssentials.framework; path = Carthage/Build/iOS/SwiftEssentials.framework; sourceTree = "<group>"; };
 		A1B104EE1E984EFC000C923A /* SVNMaterialButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SVNMaterialButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1B104F11E984EFC000C923A /* SVNMaterialButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SVNMaterialButton.h; sourceTree = "<group>"; };
 		A1B104F21E984EFC000C923A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -33,7 +31,6 @@
 			files = (
 				A11836081EAEB8E500862332 /* SVNTheme.framework in Frameworks */,
 				A17AA6CF1F5F25E400045C10 /* SVNBootstraper.framework in Frameworks */,
-				A17AA6D01F5F25E400045C10 /* SwiftEssentials.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,7 +41,6 @@
 			isa = PBXGroup;
 			children = (
 				A17AA6CD1F5F25E400045C10 /* SVNBootstraper.framework */,
-				A17AA6CE1F5F25E400045C10 /* SwiftEssentials.framework */,
 				A11836071EAEB8E500862332 /* SVNTheme.framework */,
 			);
 			name = Frameworks;
