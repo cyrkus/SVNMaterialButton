@@ -18,11 +18,14 @@ public protocol SVNMaterialButtonViewModel {
   var font: UIFont { get }
 }
 
-public struct SVNMaterialButtonStandardViewModel: SVNMaterialButtonViewModel {
+public struct SVNMaterialButtonViewModel_Default: SVNMaterialButtonViewModel {
   public var textColor: UIColor = UIColor.white
   public var isRounded: Bool = false
   public var enabledColor: UIColor = SVNTheme_DefaultDark().primaryDialogColor
   public var disabledColor: UIColor = SVNTheme_DefaultDark().primaryDialogColor.withAlphaComponent(0.75)
   public var text: String = "Continue"
   public var font: UIFont = SVNTheme_DefaultDark().mediumHeading
+  
+  public init(){
+  }
 }
