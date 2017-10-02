@@ -14,7 +14,7 @@ open class SVNMaterialButton: UIButton {
   
   open class var standardHeight: CGFloat! {
     get {
-      guard let device = UIDevice.whichDevice() else { return 65.0 }
+      guard let device = UIDevice.deviceByScreenSize() else { return 65.0 }
       switch device {
       case .isIphone4:
         return 45.0
@@ -34,7 +34,7 @@ open class SVNMaterialButton: UIButton {
   
   open class var bottomPadding: CGFloat {
     get {
-      guard let device = UIDevice.whichDevice() else { return 35.0 }
+      guard let device = UIDevice.deviceByScreenSize() else { return 35.0 }
       switch device {
       case .isIphone4:
         return 25.0
