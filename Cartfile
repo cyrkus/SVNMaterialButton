@@ -1,2 +1,2 @@
 github "sevenapps/SVNTheme" "master"
-github "sevenapps/SVNiOSBootstraper" "master"
+github "sevenapps/SVNiOSBootstraper" ~> 2.0
