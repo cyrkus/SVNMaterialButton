@@ -8,21 +8,20 @@
 
 import UIKit
 import SVNTheme
-import SVNBootstraper
+import DeviceKit
 
 open class SVNMaterialButton: UIButton {
   
   open class var standardHeight: CGFloat! {
     get {
-      guard let device = UIDevice.deviceByScreenSize() else { return 65.0 }
-      switch device {
-      case .isIphone4:
+      let device = Device()
+      if device.isOneOf([.iPhone4, .iPhone4s, .iPhone5, .iPhone5c, .iPhone5s, .iPhoneSE]) {
         return 45.0
-      case .isIphone5:
-        return 55.0
-      default:
-        return 65.0
       }
+      if device.isOneOf([.iPhone6, .iPhone6s, .iPhone7, .iPhone8]) {
+        return 55.0
+      }
+      return 65.0
     }
   }
   
@@ -34,15 +33,14 @@ open class SVNMaterialButton: UIButton {
   
   open class var bottomPadding: CGFloat {
     get {
-      guard let device = UIDevice.deviceByScreenSize() else { return 35.0 }
-      switch device {
-      case .isIphone4:
+      let device = Device()
+      if device.isOneOf([.iPhone4, .iPhone4s, .iPhone5, .iPhone5c, .iPhone5s, .iPhoneSE]) {
         return 25.0
-      case .isIphone5:
-        return 25.0
-      default:
-        return 35.0
       }
+      if device.isOneOf([.iPhone6, .iPhone6s, .iPhone7, .iPhone8]) {
+        return 25.0
+      }
+      return 35.0
     }
   }
   
@@ -84,11 +82,11 @@ open class SVNMaterialButton: UIButton {
     titleLabel?.textColor = UIColor.white
     setTitleColor(viewModel.textColor, for: UIControlState())
     setTitle(viewModel.text, for: UIControlState())
-
+    
     if viewModel.isRounded { layer.cornerRadius = 10 }
     setMaterialUI()
   }
-
+  
   
   required public init?(coder aDecoder: NSCoder) {
     fatalError("This class is not set up to be instaciated with coder use init(frame) instead")
